@@ -13291,7 +13291,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.8.3:
+typescript@^3.8.3, typescript@^3.9.6:
   version "3.9.6"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.6.tgz#8f3e0198a34c3ae17091b35571d3afd31999365a"
   integrity sha512-Pspx3oKAPJtjNwE92YS05HQoY7z2SFyOpHo9MqJor3BXAGNaPUs83CuVp9VISFkSjyRfiTpmKuAYGJB7S7hOxw==
@@ -13800,6 +13800,16 @@ web-component-analyzer@^1.0.3:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/web-component-analyzer/-/web-component-analyzer-1.1.1.tgz#9971c4747c12c173d2e3db881a1a661cdd963932"
   integrity sha512-zAa9axKMwgnPN5AGR51ufO5K/GpfKEA3bcr9RTZubnj2zy3bQut4NFLvPeC0dFGZ+SC+cfrqP9XQgjQ1xWYtvg==
+  dependencies:
+    fast-glob "^3.2.2"
+    ts-simple-type "~1.0.5"
+    typescript "^3.8.3"
+    yargs "^15.3.1"
+
+web-component-analyzer@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/web-component-analyzer/-/web-component-analyzer-1.1.4.tgz#085acbeeb39c81d65e6534ff6dddaff6db811f70"
+  integrity sha512-6Nso9ygw+r4eJAoBla0fPRzDAOyrP1SeyzX6aJQWEOalymbZa3WJLLrQ39LH6jq+fRTI0ApG0KP3GTRKot2k2w==
   dependencies:
     fast-glob "^3.2.2"
     ts-simple-type "~1.0.5"

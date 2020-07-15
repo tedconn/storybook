@@ -49,7 +49,8 @@
         "@storybook/cli": "6.0.0-rc.3",
         "lit-html": "^1.2.1",
         "npm-run-all": "4.1.5",
-        "web-component-analyzer": "^1.0.3"
+        "web-component-analyzer": "^1.0.3",
+        "lwc-storybook": "0.0.1"
     },
     "engines": {
         "node": ">=10.13.0",
@@ -58,10 +59,10 @@
     },
     "scripts": {
         "build": "cross-env rollup -c ./scripts/rollup.config.js",
-
+        "lwc": "lwc-storybook",
         "storybook": "yarn storybook:meta && run-p storybook:buildlwcw storybook:start",
         "storybook:build": "yarn storybook:meta && yarn storybook:buildlwc",
-        "storybook:meta": "web-component-analyzer src --outFiles .storybook/build/custom-elements.json",
+        "storybook:meta": "web-component-analyzer src --outFiles dist/storybook/custom-elements.json",
         "storybook:meta-doc": "web-component-analyzer src --format markdown --outFiles .storybook/build/documentation.md",
         "storybook:meta-vs": "web-component-analyzer src --format vscode --outFiles .storybook/build/documentation.md",
         "storybook:buildlwc": "rollup -c ./.storybook/rollup.config.js",

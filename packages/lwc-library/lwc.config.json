@@ -2,10 +2,7 @@
     "modules": [
         { 
             "dir" : "src"
-        },
-        { 
-            "dir" : "stories"
-        }     
+        }   
      ],
     "expose": [
         "hello/world",
