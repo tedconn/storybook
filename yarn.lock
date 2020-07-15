@@ -1790,12 +1790,19 @@
   dependencies:
     resolve "~1.17.0"
 
-"@lwc/rollup-plugin@^1.7.7":
-  version "1.16.4"
-  resolved "https://registry.yarnpkg.com/@lwc/rollup-plugin/-/rollup-plugin-1.16.4.tgz#534b9e694ffe0c65a25fb62456f3e1fa432309f6"
-  integrity sha512-SjNnDdHf5q/S/fJ2iwCxh5Q53VZ8LIG21kGM4R8G46v65py4KD3unh+gQ+MWOYA8Qmn/XxkkvebUsjE1mvbMGw==
+"@lwc/module-resolver@1.7.7":
+  version "1.7.7"
+  resolved "https://registry.yarnpkg.com/@lwc/module-resolver/-/module-resolver-1.7.7.tgz#3f0b6f64eaf86f1ebe118cc36e8c77a7d7136150"
+  integrity sha512-hu0U/1wRq44c/Xc55xzvpz4lC3BAgDXPyspNBD4SkvhKLacevPWQn4CRfznvMpO9U10ewTQcEw9qzMuDPjAPWw==
   dependencies:
-    "@lwc/module-resolver" "1.16.4"
+    resolve "~1.17.0"
+
+"@lwc/rollup-plugin@^1.7.7":
+  version "1.7.7"
+  resolved "https://registry.yarnpkg.com/@lwc/rollup-plugin/-/rollup-plugin-1.7.7.tgz#ae8f17fdcd95362dcda1db42c51eb80dec53af52"
+  integrity sha512-SnUg75z4IuVYIDi7siB8zKidYB8AJXZKfOUnAemDw+xI67pEq7CUvhA7uHHiO1lumMR5xf2uMqKSpgexUG8uTg==
+  dependencies:
+    "@lwc/module-resolver" "1.7.7"
     "@rollup/pluginutils" "~3.0.10"
 
 "@lwc/shared@1.16.4":
@@ -1814,9 +1821,9 @@
     postcss-value-parser "~4.1.0"
 
 "@lwc/synthetic-shadow@^1.7.7":
-  version "1.16.4"
-  resolved "https://registry.yarnpkg.com/@lwc/synthetic-shadow/-/synthetic-shadow-1.16.4.tgz#e5f6abdf4040737af851b8a6cfe8915a754db970"
-  integrity sha512-3yP6S7ceK+ptlhQ2zJQW/jWsMfkmgwb8RLkQqxI5CfsL20iyJg5Q5aG82nayamrzhSKwevtsHB9q9ne7cYXpJw==
+  version "1.7.7"
+  resolved "https://registry.yarnpkg.com/@lwc/synthetic-shadow/-/synthetic-shadow-1.7.7.tgz#7036b31120493ed1bb103447b46fe2c3a91b050b"
+  integrity sha512-MljASm09ognkIcM0YGoqBIxfbFgB6WhqTIt2DxHtm4ynsGHjH436c/G6UzpXzCM/yjEmtq6zdGDXxsEf7S3IlA==
 
 "@lwc/template-compiler@1.16.4":
   version "1.16.4"

@@ -15,6 +15,9 @@
     "typescript": "^3.9.6"
   },
   "dependencies": {
+    "@lwc/rollup-plugin": "^1.7.7",
+    "@lwc/synthetic-shadow": "^1.7.7",
+    "rollup": "^2.21.0",
     "web-component-analyzer": "^1.1.4"
   }
 }
