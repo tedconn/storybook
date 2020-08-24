@@ -17,6 +17,7 @@
   "dependencies": {
     "@lwc/rollup-plugin": "^1.7.7",
     "@lwc/synthetic-shadow": "^1.7.7",
+    "@storybook/web-components": "^5.3.19",
     "rollup": "^2.21.0",
     "web-component-analyzer": "^1.1.4"
   }
